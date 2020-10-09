@@ -1,0 +1,275 @@
+/* ============DEFAULTS=================*/
+body {
+    background-color: white;
+    font-family:  Helvetica, sans-serif, Arial;
+    margin: 0;
+    padding: 0;
+    color: white;
+    width: 100%;
+    text-align: center;
+
+}
+/*=====================HEADER PROPERTIES====================*/
+
+
+/* 
+    header nav {
+    color: black;
+    background-image:url("images/stars.png");
+    font-family: helvetica , arial; 
+    padding: 20px;
+    margin-top: 15px;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+     } 
+         */
+header {
+    background-color: black;
+    color: black;
+
+}
+/*=============DEVIDER===================*/
+body div.devider {
+    background-color: orange;
+    height: 50px;
+    color: black;
+    border-radius: 50%;
+    
+    
+}
+body div.devider h2 {
+    color: black;
+    font-family:  bold;
+}
+    
+
+/* ================LINKS ON NAV =========================== */
+
+
+nav div.navbar {
+/*    background-image: url(images/topnav.png);*/
+    background-repeat: round;
+    background-size: cover;
+    background-color: orange;
+    color: white;
+    display: flex ;
+    flex-direction: right;   
+    text-align: center;
+    margin:auto;
+    height: 250px;
+}
+header nav div ul {
+        display: flex;
+        flex-direction:right;
+        padding: 0;
+        list-style-type: none;
+        text-align: center;
+        margin: auto;
+   
+}
+nav ul li {
+    padding: 2px;
+    margin: 0 10px 0 0;
+}
+ul li a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+ul.topnav li a:hover {
+
+    background-color: black;
+    color: rgb(109, 69, 5);
+    border-radius: 7px;
+}
+nav ul li.logo a {
+    background-image: url("images/haroon.png");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(109, 69, 5);
+    display: inline-block;
+    background-color: ;
+    width: 300px;
+    height: 100px;
+    margin:auto;
+    text-indent: -999999px;
+    position: relative;
+    top: -15px;
+    
+}
+/* =================MY TOP SECTION  INFO================*/
+section.info {
+    padding: 0;
+    display: flex;
+    margin: auto;
+    background-color: black;
+    
+}
+
+/*============== HAROON TOP PIC ===============*/
+
+
+section.info div.mypic figure img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    box-shadow: orange 0 0 9px;
+    border: solid black 1px; 
+    
+}
+div.mypic figure figcaption {
+    color: orange;
+    padding: 6px 0;
+
+}
+
+
+
+/*==================INFO ABOUT HAROON =====================*/
+header h2 {
+    font-family: Helvetica ;
+    margin-left: 40px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 20px;
+    color: navajowhite;
+    font-family: helvetica;
+    text-transform: uppercase;
+}
+section.info div p {
+    word-spacing: 3px;
+    font-family: sans-serif;
+    color: orange;
+    font-size: 20px;
+    
+   
+}
+
+h2 button.btn {
+    background-color:black;
+    color: white ;
+    border-radius: 15px;
+    margin:12px;
+    font-size: 20px;
+    border: none;
+    box-shadow: grey 0 0 10px;
+}
+header .mobile {
+    display:none;
+
+}
+/*===============BUTTONS=================*/
+a button.headingbutton {
+    background-color: rgb(109, 69, 5);
+    color: white;
+    border-radius: 15px;
+    border:none;
+}
+
+button.headingbutton {
+    background-color: rgb(109, 69, 5);
+    color: white;
+    border-radius: 15px;
+    border:none;
+}
+a button.headingbutton:hover {
+    background-color: white;
+    
+}
+/*=================MOBILE RESPONSIVE DESIGN==================*/
+@media screen and (max-width 600px) {
+     section.advertising-pics  {
+      display: inline-flex;
+    }
+nav div.navbar ul.topnav li {
+    
+}
+ul.topnav li.logo {
+    display: none 
+}
+
+    
+    }
+   
+    
+
+
+}
+
+/* =============SECTIONS PROPERTIES WITH CAPTIONS ============================= */
+section div.my-info {
+    color: white;
+
+    
+}
+
+/*==============IMAGES PROPERTIES================= */
+div.images section  {
+    display: inline-flex;
+    text-align: center;
+}
+section.advertising-pics { 
+    margin:auto;
+    padding: 20px;
+    display: flex;
+    flex-direction:row;
+    background-size: cover;
+    height: 400px;
+
+}
+div.images section figure {
+    text-align: center;
+    color:  rgb(109, 69, 5);
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+   }
+    
+
+div.images figure img {
+    width: 250px;
+    margin: auto;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: orange  0 0 10px;
+    border: 2px  solid  orange;
+    
+
+}
+/* =====================FOOTER PROPERTIES================================= */
+footer {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    text-align:center;
+
+}
+
+footer div.socialicons {
+    display: inline-flex;
+    margin: auto;
+    
+}
+div.socialicons figure img {
+    box-shadow: orange 0 0 10px;
+    width: 40px;
+    height: 40px;
+    box-shadow: orange 0 0 10px;
+    border-radius: 50%;
+}
+footer div.footerlogo {
+    width: 100%;
+    margin: auto;
+    height: 150px ;
+    
+}
+footer div.footerlogo figure img {
+    height: 150px;
+    width: 160px;
+
+    
+}
